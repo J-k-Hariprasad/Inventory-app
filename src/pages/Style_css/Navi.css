@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+.mit
+{
+    display: flex;
+}
+.ma 
+{
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(61, 61, 184);
+    color: white;
+    margin-left: 200px;
+
+}
+.ma .se
+{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+.ma .bu
+{
+    background-color: rgb(61, 61, 184);
+    color:white;
+    margin-left: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 30px;
+    margin-right: 10px; 
+}
+.ma button
+ {
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 30px;
+    margin-right: 10px;
+    
+}
+
+.ma input
+{
+    margin-left: 20px; 
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.mbu 
+{
+    display: flex;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 727px; 
+}
+
+.mbu Button 
+{
+    margin-right: 10px; 
+}
+
+.ma h1 
+{
+    margin-left: 10px;
+}
+
+
+.side {
+    /* background-color: rgb(49, 21, 75); */
+    background-image: url('../Assests/side view.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 160px;
+    color:white;
+    padding: 20px;
+    position:fixed;
+}
+.side h1{
+    font-family:'Rubik Doodle Shadow';
+    font-size: 30px;
+}
+
+.ccc
+{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.ccc:hover
+{
+    color: aqua;
+    background-color: blue;
+}
+
+.side h1 {
+    margin-top: 1px;
+}
+
+.side .foot
+{
+    margin-top: 70px;
+}
+.side .ms
+{
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.ms:hover{
+    background-color: #2980b9;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translateX(20px);
+}
+ .msr
+{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.msr:hover
+{
+    background-color: #2980b9;
+    transform:translateX(20px);
+}
+
+.q12
+{
+    margin: 50px;
+    margin-top: 50px;
+}
+.q12 h1{
+    background-color: #2980b9;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.r4t
+{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 10px;
+    z-index: 10;
+    width: 260px;
+    border-radius: 15px;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.r4t::before
+{
+    content: '';
+    position:absolute;
+    width: 500px;
+    height: 70%;
+    margin-top: 15px;
+    background: linear-gradient( to right,#ff4e22,#00ccff,#d400d4,#d21a60,#ff4e22);
+    animation: animate 10s linear infinite;
+}
+.r4t::after
+{
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background-color: black;
+    border-radius: 16px;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+.r4t .r5
+{
+    border-radius: 15px;
+    z-index: 10;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    justify-content: center;
+    position: relative;
+}
+.r4t .r6
+{
+    z-index: 10;
+    justify-content: center;
+    position: relative;
+    margin-top: 65px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 40px;
+}
+
+    .r4
+    {
+        margin-top: 15px;
+        display: flex;
+        margin-left: 10px;
+        z-index: 10;
+        width: 1065px;
+        height: 300px;
+        border-radius: 15px;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .r4::before
+    {
+        content: '';
+        position:absolute;
+        width: 1200px;
+        height: 70%;
+        margin-top: 40px;
+        background: linear-gradient( to right,#ff4e22,#00ccff,#d400d4,#d21a60,#ff4e22);
+        animation: animate 10s linear infinite;
+    }
+    .r4::after
+    {
+        content: '';
+        position: absolute;
+        inset: 5px;
+        background-color: black;
+        border-radius: 16px;
+    }
+    @keyframes animate
+    {
+        0%
+        {
+            transform: rotate(0deg);
+        }
+        100%
+        {
+            transform: rotate(360deg);
+        }
+    }
+
+.a12
+{
+    z-index: 10;
+    justify-content: center;
+    position: relative;
+}
+.a12 h3
+{
+    font-family:'Rubik Doodle Shadow';
+    font-size: 30px;
+    text-align: center;
+}
+
+.s21
+{
+    display: flex;
+}

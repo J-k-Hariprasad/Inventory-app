@@ -1,0 +1,102 @@
+.rig
+{
+    width: 400px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 30px 30px; 
+    backdrop-filter: blur(30px);
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.rig::before
+{
+    content: '';
+    margin-top: -150px;
+    display: flex;
+    position:absolute;
+    margin-bottom: 70px;
+    width: 150px;
+    height: 1200px;
+    background: linear-gradient(#ff4e22,#00ccff,#d400d4,#d21a60,#ff4e22);
+    animation: animate 10s linear infinite;
+}
+.rig::after
+{
+    content: '';
+    position: absolute;
+    inset: 5px;
+    background-color: rgb(44, 39, 39);
+    border-radius: 16px;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.we12
+{
+    position: relative;
+    z-index: 10;
+
+}
+#ggg
+{
+    width:200px;
+    height: 50px;
+    border: none;
+    border-radius: none;
+    position: relative;
+    z-index: 10;
+}
+.rig input
+{
+    
+    border-radius: 5px;
+    font-family: cursive;
+    position: relative;
+    z-index: 10;
+    font-size: 20px;
+    background: white;
+    color:black;
+    
+}
+.rig button
+{
+    position: relative;
+    z-index: 10;
+
+}
+.rig .io
+{
+    position: relative;
+    z-index: 10;
+    padding: 2px;
+    font-family:monospace ;
+    font-size:20px;
+    font-weight: 900;
+    color:white;
+}
+.rig label
+{
+    text-align: left;
+}
+.hell
+{
+    position: relative;
+    z-index: 10;
+    background: transparent;
+    border: none;
+}
+
+

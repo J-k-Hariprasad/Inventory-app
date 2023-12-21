@@ -1,0 +1,90 @@
+.q1
+{
+    justify-content: center;
+    position: relative;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.rec
+{
+    justify-content: center;
+    position: relative;
+    width: 280px;
+    height: 490px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: black;
+    backdrop-filter: blur(60px);
+    z-index: 10;
+    overflow: hidden;
+    color: white;
+}
+.rec::before
+{
+    content: '';
+    position:absolute;
+    width: 180px;
+    height: 120%;
+    margin-left: -65px;
+    margin-top: -65px;
+    background: linear-gradient(to top,#2518d0,#ff4e22,#00ccff,#2518d0,#35e241,#f80e0e);
+    animation: animate 15s linear infinite;
+}
+.rec::after
+{
+    content: '';
+    position: absolute;
+    background-color: black;
+    inset: 5px;
+    border-radius: 16px;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+    
+}
+.q1 .q2
+{
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: -20px;
+    z-index: 10;
+    font-family: monospace;
+    font-size: 16px;
+}
+.q1 .q3
+{
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    z-index: 10;
+    font-family:cursive;
+}
+.rec .ce
+{
+    z-index: 10;
+    justify-content: center;
+    position: relative;
+    margin-top: -40px;
+    overflow: hidden;
+}
+
+.z12
+{
+    height: 130px;
+    width:130px;
+    align-items: center;
+    margin-left: 22.5%;
+}

@@ -1,0 +1,41 @@
+.sig {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    padding-top: 5px;
+    height: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.sig::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200%;
+    margin-left: 15px;
+    margin-top: -40px;
+    background: linear-gradient(#2518d0, #ff4e22, #00ccff, #2518d0, #35e241, #f80e0e);
+    animation: animate 15s linear infinite;
+    z-index: -1;
+}
+
+.ll::after {
+    content: '';
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    z-index: 1; 
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

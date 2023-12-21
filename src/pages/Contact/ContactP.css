@@ -1,0 +1,57 @@
+/* ContactUsPage.css */
+
+label
+{
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+h1{
+    font-size: 40px;
+    color: aliceblue;
+
+}
+.contact-us-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 100px;
+    backdrop-filter: blur(30px);
+    border-radius: 10%;
+    margin-top: 50px;
+    width:500px;
+    height: 500px;
+    position: relative;
+    justify-content: center;
+    border: 5px solid lightblue;
+    background-color: black;
+    /* background-image:linear-gradient(to right,#2518d0, #ff4e22, #00ccff, #2518d0, #35e241, #f80e0e); */
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
