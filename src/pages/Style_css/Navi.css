@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 
 .mit
 {
@@ -13,6 +13,8 @@
     background-color: rgb(61, 61, 184);
     color: white;
     margin-left: 200px;
+    z-index: 50;
+    position: fixed;
 
 }
 .ma .se
@@ -43,9 +45,12 @@
 
 .ma input
 {
+    margin-top: 7px;
     margin-left: 20px; 
-    font-size: 30px;
+    font-size: 20px;
+    width: 300px;
     border: none;
+    text-decoration: none;
     border-radius: 5px;
 }
 
@@ -54,7 +59,7 @@
     display: flex;
     color: aliceblue;
     font-weight: 500;
-    margin-left: 727px; 
+    margin-left: 770px; 
 }
 
 .mbu Button 
@@ -80,7 +85,7 @@
     position:fixed;
 }
 .side h1{
-    font-family:'Rubik Doodle Shadow';
+    font-family:'Nabla';
     font-size: 30px;
 }
 

@@ -11,9 +11,7 @@ body
       background-image:url('Assest_Back/hit.jpg') ;
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center;
-       /* overflow: hidden;  */
- 
+      background-attachment: fixed;
 }
 
 code {

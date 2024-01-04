@@ -68,20 +68,19 @@ function Navi()
     </div>
 
       <div className="ma">
-      <Button><PiClockCounterClockwiseBold /></Button> 
-
+        <Button><PiClockCounterClockwiseBold /></Button> 
         <ImSearch className='se'/><input text='search' placeholder='Search'></input>
         <div className='mbu'>
-        <Button><IoSettingsOutline /></Button>
-        <Button onClick={handleProfileClick}><VscAccount /></Button>
+          <Button><IoSettingsOutline /></Button>
+          <Button onClick={handleProfileClick}><VscAccount /></Button>
         </div>
         <div>
-            <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
-            <MenuItem onClick={handleMenuClose}>My Profile</MenuItem>
-            <MenuItem onClick={()=> navigate('/')}>Logout</MenuItem>
+          <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
+          <MenuItem onClick={handleMenuClose}>My Profile</MenuItem>
+          <MenuItem onClick={()=> navigate('/')}>Logout</MenuItem>
           </Menu>
         </div>
-    </div>
+      </div>
     <Content/>
     </div>
   )

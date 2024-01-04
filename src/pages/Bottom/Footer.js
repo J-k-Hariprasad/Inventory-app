@@ -19,8 +19,10 @@ const Footer = () => {
         </div>
 
         <div className="footer-section">
-          <h2>Thank yo</h2>
-          <p>Stay connected on social media for updates and promotions:</p>
+          <h2>Thank you</h2>
+          <p>Thank you for supporting us</p>
+          <p>Thank to the Parterners and investos</p>
+          <p>and Delivery Partner</p>
      
         </div>
       </div>
