@@ -16,7 +16,7 @@ function LoginD()
         console.log('Username:', username);
         console.log('Password:', password);
 
-        if(username === "Hariprasad JK")
+        if(username !== "")
         {
             navigate('mainPage');
         }
@@ -58,6 +58,7 @@ function LoginD()
     )
 }
 export default LoginD;
+
 
 
 
